@@ -22,9 +22,7 @@ export default function FadeMenu() {
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
-      >
-        Dashboard
-      </MenuIcon>
+      />
       <Menu
         id="fade-menu"
         MenuListProps={{
