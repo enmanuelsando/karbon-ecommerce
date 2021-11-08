@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Button from '@mui/material/Button'
 import * as React from 'react';
@@ -32,12 +31,6 @@ function App() {
         </Toolbar>
       </AppBar>
     </Box>
-      <header className="App-header">
-        <Button variant='contained' color='secondary' size='medium'>
-          Hello World
-        </Button>
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
     </div>
   );
 }
