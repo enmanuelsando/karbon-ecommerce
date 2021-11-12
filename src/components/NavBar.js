@@ -5,7 +5,8 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button'
 import IconButton from '@mui/material/IconButton';
-import FadeMenu from './menu'
+import FadeMenu from './Menu'
+import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 
 export default function NavBar() {
     return (
@@ -23,10 +24,10 @@ export default function NavBar() {
              <FadeMenu/>
            </IconButton>
             <Typography variant="h6"    component="div" sx={{ flexGrow: 1 }}>
-             Karbon
+             KARBON
           </Typography>
-          <Button color="inherit" variant="outlined">Register</Button>
           <Button color="inherit" variant="outlined">Login</Button>
+           <ShoppingBagOutlinedIcon/>
         </Toolbar>
       </AppBar>
     </Box>
