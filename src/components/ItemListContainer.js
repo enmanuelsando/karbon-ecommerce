@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from '@mui/material'
-import { ItemCount } from './ItemCount'
+import ItemList from './ItemList'
 
 export const ItemListContainer = ({greeting, usuario, handleClick}) => {
 
@@ -17,7 +17,7 @@ export const ItemListContainer = ({greeting, usuario, handleClick}) => {
                 Click Me
             </Button>
             <hr/>
-            <ItemCount stock="5"/>
+            <ItemList/>
         </div>
     )
 }
